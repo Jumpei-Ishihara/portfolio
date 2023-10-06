@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ISHIHARA-portfolio-</title>
+    <meta name="description" content="ISHIHARA-portfolio-" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon/web-clip-icon -->
+    <link rel="icon" href="icon.ico" type="image/ico" />
+    <link rel="icon" href="icon.png" type="image/png" />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="webclip.png" />
+
+    <!-- ogp -->
+    <meta property="og:site_name" content="ISHIHARA-portfolio-" />
+    <meta property="og:url" content="サイトのURL" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ISHIHARA-portfolio-" />
+    <meta property="og:description" content="ISHIHARA-portfolio-" />
+    <meta property="og:image" content="URL" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="ISHIHARA-portfolio-" />
+    <meta name="twitter:image:src" content="URL" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Noto+Sans+JP:wght@400;700&family=Sawarabi+Mincho&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body class="js_body">
+    <div class="top_kv">
+      <video playsinline autoplay muted loop class="top_kv_video js_opening">
+        <source src="img/bg_kv.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <header class="l_header js_header">
+      <p class="l_header-logo">
+        <a href="index.html" class="l_header-logo_link"
+          >ISHIHARA <br /><span class="l_header-logo_sub">-Portfolio-</span></a
+        >
+      </p>
+    </header>
+
+    <main>
+      <div class="top_content">
+        <section class="top_area js_top_area">
+          <div class="about">
+            <h2 class="section-ttl js_about">ABOUT</h2>
+            <p class="section_txt js_about_content">
+              石原純平<br />
+              学生時代カメラにハマり、<br />
+              それから趣味は写真や映像。<br />
+              自分の撮った写真や作った映像がWebサイトに掲載されたことをきっかけに、Web制作に関心を持つこととなる。
+            </p>
+          </div>
+          <div class="service">
+            <h2 class="section-ttl js_service">SERVICE</h2>
+            <p class="section_txt js_service_content">
+              <span crass="service_span">PHOTO</span><br />
+              人物、料理など <br />
+              <span crass="service_span">MOVIE</span> <br />
+              撮影、編集、モーショングラフィックスなど<br />
+              <span crass="service_span">WEB制作</span> <br />
+              デザイン、コーディング
+            </p>
+          </div>
+          <div class="work">
+            <h2 class="section-ttl js_work">WORK</h2>
+            <p class="section_txt js_work_content">
+              <span crass="work_span">PHOTO</span><br />
+              <button class="sample_btn js_btn_photo">5 sample photos</button>
+              <br />
+              <span crass="work_span">MOVIE</span><br />
+              <button class="sample_btn js_btn_movie">2 sample movies</button
+              ><br />
+              <span crass="work_span">WEB制作</span><br />
+              <button class="sample_btn js_btn_web">sample design</button>
+            </p>
+          </div>
+          <div class="contact">
+            <h2 class="section-ttl js_contact">CONTACT</h2>
+            <p class="section_txt js_contact_content">
+              下記項目を参考に、SNS・メールにてご連絡ください。<br />
+              ・お名前（会社名）<br />
+              ・予算、納期<br />
+              ・ご依頼内容<br />
+            </p>
+            <div class="contact_img js_contact_img">
+              <a href="mailto:bigthanksosigoto@gmail.com" class="contact_link">
+                <img src="img/Mailicon.svg" alt="mail" class="mailicon" />
+              </a>
+              <a href="https://x.com/Ishihara_web" class="contact_link">
+                <img src="img/Xicon.svg" alt="X" class="mailicon" />
+              </a>
+            </div>
+          </div>
+        </section>
+        <div class="samples js_samples">
+          <div class="sample-item js_photos">
+            <img src="img/samplephoto1.jpg" alt="" class="sample-photo" />
+            <img src="img/samplephoto2.jpg" alt="" class="sample-photo" />
+            <img src="img/samplephoto3.jpg" alt="" class="sample-photo" />
+            <img src="img/samplephoto4.jpg" alt="" class="sample-photo" />
+            <img src="img/samplephoto5.jpg" alt="" class="sample-photo" />
+            <button class="sample-photo js_btn_esc_p">
+              <p class="esc_txt">X</p>
+            </button>
+          </div>
+        </div>
+        <div class="samples js_samples">
+          <div class="sample-item js_movies">
+            <a
+              href="https://youtu.be/9jQmcaFymLo"
+              target="_blank"
+              class="sample-movie_link"
+            >
+              <img
+                src="img/samplemovie2.jpg"
+                alt="sample2"
+                class="sample-movie"
+              />
+            </a>
+            <a
+              href="https://youtu.be/nVe_-l_9f04"
+              target="_blank"
+              class="sample-movie_link"
+            >
+              <img
+                src="img/samplemovie1.jpg"
+                alt="sample1"
+                class="sample-movie"
+              />
+            </a>
+            <button class="sample-photo js_btn_esc_m">
+              <p class="esc_txt">X</p>
+            </button>
+          </div>
+        </div>
+        <div class="samples js_samples">
+          <div class="sample-item js_web">
+            <img src="img/sampleweb1.jpg" alt="web" class="sample-web" />
+            <button class="sample-web js_btn_esc_w">
+              <p class="esc_txt esc_w">X</p>
+            </button>
+          </div>
+        </div>
+
+        <section class="btn_area js_btn_area">
+          <button class="btn-wrapper js_btn_about">
+            <p class="btn_txt">ABOUT</p>
+          </button>
+          <button class="btn-wrapper js_btn_service">
+            <p class="btn_txt">SERVICE</p>
+          </button>
+          <button class="btn-wrapper js_btn_work">
+            <p class="btn_txt">WORK</p>
+          </button>
+          <button class="btn-wrapper js_btn_contact">
+            <p class="btn_txt">CONTACT</p>
+          </button>
+        </section>
+      </div>
+    </main>
+
+    <footer class="l_footer js_footer">
+      <p class="l_footer-copyright">
+        <small class="l_footer-copyright_txt">&copy; ISHIHARA.</small>
+      </p>
+    </footer>
+  </body>
+</html>
