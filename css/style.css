@@ -177,6 +177,21 @@ body {
   top: 0;
 }
 
+.contact_img {
+  max-width: 1200px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 36px;
+}
+
+.contact_link {
+  width: 24px;
+  height: 24px;
+}
+
 .samples {
   position: absolute;
   top: 0;
@@ -237,18 +252,6 @@ body {
   padding: 16px 24px;
   font-size: 24px;
   color: #fff;
-}
-
-.contact_img {
-  margin-top: 24px;
-  margin-left: 32px;
-  display: flex;
-  gap: 24px;
-}
-
-.contact_link {
-  width: 24px;
-  height: 24px;
 }
 
 @media screen and (min-height: 900px) {
