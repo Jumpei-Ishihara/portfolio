@@ -195,7 +195,7 @@ body {
 
 .sample-photo {
   aspect-ratio: 16/9;
-  max-height: 600px;
+  max-height: calc(100vh - 300px);
 }
 
 .sample-movie_link {
@@ -208,14 +208,25 @@ body {
 .sample-movie {
   aspect-ratio: 16/9;
   min-width: 300px;
-  max-height: 600px;
+  max-height: calc(100vh - 300px);
 }
 
 .sample-web {
   aspect-ratio: 16/9;
-  max-width: 1066px;
-  max-height: 600px;
+  min-width: 300px;
+  max-height: calc(100vh - 300px);
+}
+.sample-web2 {
+  aspect-ratio: 16/9;
+  min-width: 300px;
+  max-height: calc(100vh - 300px);
+  border: 1px solid #fff;
+  color: #fff;
+  display: flex;
   justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: #222;
 }
 
 .esc_txt {
