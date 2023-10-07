@@ -220,6 +220,7 @@ body {
 .sample-web2 {
   aspect-ratio: 16/9;
   min-width: 300px;
+  max-width: 900px;
   max-height: calc(100vh - 300px);
   border: 1px solid #fff;
   color: #fff;
