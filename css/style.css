@@ -114,10 +114,16 @@ body {
 }
 
 .section-ttl {
-  margin-top: 8px;
+  margin-top: 4px;
   margin-left: 16px;
-  font-size: 36px;
+  font-size: 32px;
   color: #fff;
+}
+
+@media screen and (max-height: 620px) {
+  .section_ttl {
+    margin-top: 4px;
+  }
 }
 
 @media screen and (min-height: 900px) {
