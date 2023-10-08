@@ -135,6 +135,8 @@ x_w.addEventListener("click", function () {
 gsap
   .timeline()
   .from(".js_opening", {
+    delay:0.2,
+    autoAlpha:0,
     duration: 3.4,
     scale: 1.3,
   })
